@@ -1,0 +1,11 @@
+MODELOS
+
+Modelos fisicos: es la manera mas explicita de describir un sistema, incluye la composicion de hardware de un sistema en terminos de los ordenadores y sus redes de interconexion
+
+Modelos arquitectonicos: describen un sistema en terminos de las tareas de calculo y de comunicacion realizadas por sus elementos computacionales. Los elementos pueden ser ordenadores individuales o conjuntos de ellos con sus interconexiones
+
+Modelos fundamentales: perspectivas abstractas con el fin de examinar los aspectos individuales de un SD
+
+    -modelo de interaccion: prestaciones y dificulad de poner limites temporales en un sistema distribuido 
+    -modelo de fallos: especificacion precisa de los fallos que se pueden producir en los procesos y en los canales de comunicacion
+    -modelo de seguridad: discute sobre posibles amenazas para los procesos y canales de comunicacion 

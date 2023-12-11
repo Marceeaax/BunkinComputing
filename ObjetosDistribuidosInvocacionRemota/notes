@@ -1,0 +1,15 @@
+RMI stands for "Remote Method Invocation," and it's a way for programs to communicate with each other over a network, allowing them to call methods or functions on objects located in a different address space (typically on a different computer).
+
+In simple terms, imagine you have two computers, A and B. RMI allows a program running on computer A to ask computer B to perform a specific task, like calculating a math problem or processing some data. Computer A sends a message to computer B with instructions on what it wants to be done, and computer B performs the task and sends the result back to computer A.
+
+Think of RMI as a way for computers to "talk" to each other and request services or actions from one another, even if they are physically separated by a network. It's commonly used in distributed computing and remote service interactions in Java and other programming languages.
+
+Setting up an RMI server in Java.RMI involves several steps:
+
+- Defining the remote interface
+
+- Implementing the remote object
+
+- Creating the server
+
+- Creating the client
