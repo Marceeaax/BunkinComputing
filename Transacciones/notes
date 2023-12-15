@@ -1,0 +1,26 @@
+TRANSACCIONES
+
+Secuencia de operaciones que se realiza por el servidor y se garantizan que son atomicas
+
+El uso de threads puede lograr la sincronizacion sin ayuda de las TRANSACCIONES
+
+El keyword synchronized en Java permite que solo un thread a la vez pueda acceder al objeto
+
+Los metodos wait y notify de Java permiten a los threads comunicarse entre si
+
+
+
+PROBLEMAS CONOCIDOS DEL CONTROL DE CONCURRENCIA:
+
+- Actualizaciones perdidas: Ocurre cuando dos transacciones leen el viejo valor de una variable
+
+- Recuperaciones inconsistentes
+
+- Equivalencia secuencial (?)
+
+- Operaciones conflictivas (?)
+
+La equivalencia secuencial es lo que ayuda a prevenir las actualizaciones perdidas y las recuperaciones inconsistentes
+
+Locks, optimistic concurrency and timestamp ordering. Locks can lead to deadlocks y pueden generar sobrecargas en el servidor
+

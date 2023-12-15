@@ -13,3 +13,13 @@ Setting up an RMI server in Java.RMI involves several steps:
 - Creating the server
 
 - Creating the client
+
+
+Medidas de tolerancia a fallos:
+
+- Reintento de mensaje de peticion
+
+- Filtrado de duplicado
+
+- Reejecucion del procedimiento o retransmision de la respuesta    
+
