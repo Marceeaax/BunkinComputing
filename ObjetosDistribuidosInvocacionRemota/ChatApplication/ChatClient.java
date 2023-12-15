@@ -11,7 +11,7 @@ public class ChatClient {
             String sender = scanner.nextLine();
 
             // Print a "connected" message on the server side
-            chatService.sendMessage(sender + " is connected.");
+            chatService.notifyClientConnected(sender);
 
             while (true) {
                 System.out.print("Enter your message (or 'exit' to quit): ");

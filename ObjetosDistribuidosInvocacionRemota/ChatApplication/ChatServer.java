@@ -27,6 +27,10 @@ public class ChatServer extends UnicastRemoteObject implements ChatService{
         return chatHistory.toString();
     }
 
+    public void notifyClientConnected(String clientName) throws RemoteException {
+        System.out.println(clientName + " is connected.");
+    }
+
     public static void main(String[] args) {
         try {
             ChatServer server = new ChatServer();
